@@ -14,7 +14,7 @@ header{
 }
 .toggle{
     background-color: #09122C;
-    height: 60% !important;
+    height: 50% !important;
 }
 .btn-bg{
     background-color: #BE3144;
@@ -111,4 +111,10 @@ input:focus{
     height: 30px;
     background-color: #e0e1DD;
     border-radius: 50%;
+}
+.language{
+    background-color: #A76FFC;
+}
+.language-1{
+    background-color: #09122C;
 }

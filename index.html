@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <!-- fevicon  -->
+     <link rel="icon" href="./images/LOGO.png">
     <!-- fontawesome css  -->
     <link rel="stylesheet" href="./css/all.css">
     <!-- font  -->
@@ -17,6 +20,7 @@
     <!-- main Css -->
     <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
     <div class="offcanvas offcanvas-top toggle" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
         <div class="offcanvas-header">
@@ -54,12 +58,12 @@
         </div>
     </div>
     <!-- header goes here  -->
-    <header class="p-3 position-sticky z-1 ">
+    <header class="p-3 position-sticky top-0 z-1">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-2  text-color">
-                    <a href="home">
-                        <img src="./images/Black_and_Yellow_Modern_Monogram_Logo-removebg-preview.png" class="img-fluid" alt="logo">
+                    <a href="home" class="text-decoration-none text-color">
+                       <img src="./images/LOGO.png" alt="logo" class= "w-50">
                     </a>
                 </div>
                 <nav class="col-lg-8 d-none d-lg-block  text-white d-flex d-lg-flex justify-content-lg-center">
@@ -104,7 +108,7 @@
     <!-- header ends here  -->
     <main>
         <!-- banner section goes here  -->
-         <section class="banner z-0 d-flex
+        <section class="banner z-0 d-flex
          align-items-center p-sm-0 position-relative" id="home">
             <div class="container">
                 <div class="row">
@@ -138,16 +142,15 @@
                     </div>
                     <div class="col-lg-6 order-1 order-lg-2 col-sm-12">
                         <div class="full-stack d-flex justify-content-center">
-                            <img src="./images/upscalemedia-transformed.png" alt=""
-                                class=" img-fluid rounded-5 ">
+                            <img src="./images/upscalemedia-transformed.png" alt="" class=" img-fluid rounded-5 ">
                         </div>
                     </div>
                 </div>
             </div>
-        </section> 
+        </section>
         <!-- banner section ends here  -->
         <!-- About starts heres  -->
-         <section class="pb-90" id="about">
+        <section class="pb-90" id="about">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-6">
@@ -181,7 +184,7 @@
                     </div>
                 </div>
             </div>
-        </section> 
+        </section>
         <!-- About ends heres  -->
         <!-- skills starts here  -->
         <section class="pb-90" id="skills">
@@ -237,7 +240,7 @@
         </section>
         <!-- skills ends here  -->
         <!-- project starts here  -->
-         <section class="pb-90 "id="projects">
+        <section class="pb-90 " id="projects">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
@@ -334,101 +337,164 @@
         <!-- project ends here  -->
         <!-- contact starts here  -->
         <section class="pb-90" id="contact">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-6">
-                    <div class="contact-us">
-                        <img src="./images/contact me.png" alt="" class="img-fluid">
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="col-12">
-                        <div class="me fw-bolder text text-start underline">
-                            <h3>
-                                CONTACT ME
-                            </h3>
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="contact-us">
+                            <img src="./images/contact me.png" alt="" class="img-fluid">
                         </div>
                     </div>
-                    <div class="form">
+                    <div class="col-lg-6">
                         <div class="col-12">
-                            <div class="name text-color ">
-                                Name
-                                <div class="d-flex w-100">
-                                    <input type="text" placeholder="First" class=" rounded me-2 w-100 p-2">
-                                    <input type="text" placeholder="Last" class="rounded w-100 p-2">
-                                </div>
+                            <div class="me fw-bolder text text-start underline">
+                                <h3>
+                                    CONTACT ME
+                                </h3>
                             </div>
-                            <div class="email text-color mt-2">
-                                E-mail
+                        </div>
+                        <div class="form">
+                            <div class="col-12">
+                                <div class="name text-color ">
+                                    Name
+                                    <div class="d-flex w-100">
+                                        <input type="text" placeholder="First" class=" rounded me-2 w-100 p-2">
+                                        <input type="text" placeholder="Last" class="rounded w-100 p-2">
+                                    </div>
+                                </div>
+                                <div class="email text-color mt-2">
+                                    E-mail
+                                    <div>
+                                        <input type="email" placeholder="E-mail" class="rounded w-100 p-2">
+                                    </div>
+                                </div>
+                                <div class="email text-color mt-2">
+                                    Phone Number
+                                    <div>
+                                        <input type="text" placeholder="Phone Number" class="rounded p-2">
+                                    </div>
+                                </div>
                                 <div>
-                                    <input type="email" placeholder="E-mail" class="rounded w-100 p-2">
+                                    <label class="text-color">
+                                        Message
+                                    </label>
+                                    <div>
+                                        <textarea name="Message" placeholder="Type Your Message" rows="4"
+                                            class="w-100 rounded p-2"></textarea>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="email text-color mt-2">
-                               Phone Number
-                                <div>
-                                    <input type="text" placeholder="Phone Number" class="rounded p-2">
-                                </div>
-                            </div>
-                            <div>
-                                <label class="text-color">
-                                    Message
-                                </label>
-                                <div>
-                                    <textarea name="Message" placeholder="Type Your Message" rows="4"  class="w-100 rounded p-2"></textarea>
-                                </div>
-                            </div>
-                            <div class="d-flex justify-content-center justify-content-md-start mt-2">
-                                <div class="text-white me-3">
-                                    <button type="button" class="btn btn-bg text-white">Submit</button>
+                                <div class="d-flex justify-content-center justify-content-md-start mt-2">
+                                    <div class="text-white me-3">
+                                        <button type="button" class="btn btn-bg text-white">Submit</button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 mt-3">
+            </div>
+        </section>
+        <!-- contact ends here  -->
+    </main>
+    <!-- footer goes here  -->
+     <footer class="language">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="logo d-flex justify-content-center text-color">
+                   <img src="./images/LOGO.png" alt="logo" class="w-25 h-25">
+                </div>
+                <h3 class="text-color text-center mt-2">
+                    Jeet Prajapati
+                </h3>
+                <h3 class="text fw-bold text-center mt-2">
+                    Full-Stack Developer
+                </h3>
+            </div>
+            <div class="d-flex justify-content-center d-grid gap-3">
+                <div class="html ">
+                    <span class="badge text-color language-1 p-3 fs-6">C Language</span>
+                </div>
+                <div class="html">
+                    <span class="badge text-color language-1 p-3 fs-6">HTML-5</span>
+                </div>
+                <div class="html">
+                    <span class="badge text-color language-1 p-3 fs-6">CSS-3</span>
+                </div>
+                <div class="html">
+                    <span class="badge text-color language-1 p-3 fs-6">BOOTSTRAP</span>
+                </div>
+            </div>
+            <nav>
+                <ul class="d-flex justify-content-center d-grid gap-4 list-unstyled mt-3">
+                    <li>
+                        <a href="#home" class="text-color text-decoration-none">
+                            Home
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#about" class="text-color text-decoration-none" >
+                           About
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#skills" class="text-color text-decoration-none" >
+                            Skills
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#projects" class="text-color text-decoration-none" >
+                           Projects
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="text-color text-decoration-none" >
+                            Contact
+                        </a>
+                    </li>   
+                </ul>
+            </nav>
+                <div class="col-lg-3 mt-3 ">
                     <div class="contact text-color me-2 icon">
                         <i class="fa-solid fa-phone"></i>
                         +91 99242 45299
                     </div>
                 </div>
-                <div class="col-lg-4 mt-3">
+                <div class="col-lg-4 mt-3 ">
                     <div class="contact text-color me-2 icon">
                         <i class="fa-solid fa-envelope "></i>
                         jeetprajapati1617@gmail.com
                     </div>
                 </div>
-                <div class="col-lg-3 mt-3">
+                <div class="col-lg-3 mt-3 ">
                     <div class="contact text-color me-2 icon">
                         <i class="fa-solid fa-location-dot"></i>
                         Surat,Gujarat
                     </div>
                 </div>
-                <div class="col-lg-2 mt-3">
-                    <div class="d-flex">
-                        <div class="icons d-flex justify-content-center align-items-center me-2">
-                            <a href="https://www.linkedin.com/in/jeet-prajapati-973a72339/" target="_blank">
-                                <i class="fa-brands fa-linkedin-in" style="color: #0A66C2;"></i>
-                            </a>
-                        </div>
-                        <div class="icons d-flex justify-content-center align-items-center me-2">
-                            <a href="https://github.com/" target="_blank">
-                                <i class="fa-brands fa-github" style="color:black"></i>
-                            </a>
-                        </div>
-                        <div class="icons d-flex justify-content-center align-items-center me-2">
-                            <a href="https://www.instagram.com/_jp.06.06_/" target="_blank">
-                                <i class="fa-brands fa-instagram"  style="color:black"></i>
-                            </a>
-                        </div>
+            <div class="col-lg-2 col-12 d-flex justify-content-center mb-3 mt-3">
+                <div class="d-flex">
+                    <div class="icons d-flex justify-content-center align-items-center me-2">
+                        <a href="https://www.linkedin.com/in/jeet-prajapati-973a72339/" target="_blank">
+                            <i class="fa-brands fa-linkedin-in" style="color: #0A66C2;"></i>
+                        </a>
                     </div>
-                   
+                    <div class="icons d-flex justify-content-center align-items-center me-2">
+                        <a href="https://github.com/" target="_blank">
+                            <i class="fa-brands fa-github" style="color:black"></i>
+                        </a>
+                    </div>
+                    <div class="icons d-flex justify-content-center align-items-center me-2">
+                        <a href="https://www.instagram.com/_jp.06.06_/" target="_blank">
+                            <i class="fa-brands fa-instagram" style="color:black"></i>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
-        </section>   
-        <!-- contact ends here  -->
-    </main>
+    </div>
+    </div>
+</footer>
+    <!-- footer ends here  -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
