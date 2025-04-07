@@ -33,6 +33,15 @@ a:hover{
 .text-color{
     color: #e0e1DD;
 }
+.jp{
+    background-image: url('../images/Jeet.jpeg');
+    background-size: cover;
+    height: 400px;
+    width: 400px;
+    overflow: hidden;
+    border-radius: 50%;
+    background-position: center center;
+}
 .bg{
     color: black;
 }
